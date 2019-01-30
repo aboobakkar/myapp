@@ -15,7 +15,7 @@ You will also see any lint errors in the console.
 # Note
 
 This project is now currently maintained by 
-[@ameerthehacker](https://github.com/aboobakkar), please reach out to him on any issues or help.
+[@aboobakkar](https://github.com/aboobakkar), please reach out to him on any issues or help.
 
 
 
@@ -25,7 +25,10 @@ This project is now currently maintained by
 ## Installation
 
 ```
-$ 
+git clone https://github.com/aboobakkar/myapp.git and goto `myapp`
+rm -rf node_modules
+$ npm install
+$ yarn start
 ```
 
 
