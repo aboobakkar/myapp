@@ -6,7 +6,6 @@ const path = "assets/images/"
 class App extends Component {
     render() {
         let items = Data.page.content_items.content;
-        console.log(Data.page)
         return (
             <div>
                 <div className="topbar gradient fixed">
@@ -23,7 +22,7 @@ class App extends Component {
                         items.map((item, index) => (
 
                             <li className="col-md-4 col-xs-4" key={index}>
-                            <LazyLoad height={160} offsetVertical={160}>   
+                            <LazyLoad height={125} offsetVertical={125}>   
                                 <img src={path + item.poster_image} alt="poster" />
                             </LazyLoad>
                                 <span>{item.name}</span>
